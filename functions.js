@@ -88,12 +88,12 @@ const divisionArray = function (arg1) {
 };
 
 const oddArray = function (arg1) {
-	let result = arg1.filter(num => num %2 !== 0);
+	let result = arg1.filter(num => num % 2 !== 0);
 	return result
 };
 
 const evenArray = function (arg1) {
-	let result = arg1.filter(num => num %2 === 0);
+	let result = arg1.filter(num => num % 2 === 0);
 	return result
 };
 
